@@ -30,5 +30,7 @@ on my front end code and allows clearer organization in the firebase console rul
 
 8.) With Google Analytics, admin can see Active user count, how many users have opened the app in the last 30 minutes, view monthly tables of top screens/pages and how long users are staying on those pages, how stable the app is with crash analytics, how/why users are coming to the page and roughly how much that cost, how well site is able to obtain users and lets not forget demographics which include what devices and browser each member is using, and of course country/region. Still not convenced? Let's talk about revenue. Google Analytics also helps you set up AdMob which will not only bring you revenue when others see other company adds, but it also helps you make sure your site is seen around the world!
 
+9.) Fire Hosting makes it very easy to deploy your website from your terminal. It starts out with a temp website perfect for alpha and beta testing. You can also directly update your code to the specified hosted site through terminal as well.
 
-Over all I hope to continue working on hackteck and improve some styling and functionality. I plan on going back and commenting on key logic through each component. I also plan on organizing and simplifying the code as well.  
+
+Over all I hope to continue working on hackteck and improve some styling and functionality. Commenting on key logic through each component is in the next update. Long term I hope to organize and simplify the code as well so that I can do a tutorial video on Youtube. Once Youtube video is completed, I'll leave a link here in the readMe.md section. 
