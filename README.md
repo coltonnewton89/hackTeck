@@ -1,4 +1,4 @@
-Welcome to hackTeck. This is a 'hack' environment where I can experiment with new things. 
+Welcome to hackTeck. This is a 'hack' environment where I can implement new or unfamiliar code. 
 (Mostly full stack development)
 
 
