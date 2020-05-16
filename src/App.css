@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2f2834;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,133 @@
     transform: rotate(360deg);
   }
 }
+
+/*Create User Style*/ 
+
+.createUserTable{
+  color: white;
+  position: absolute;
+  text-align: center;
+  height: 300px;
+  width: 290px;
+  z-index: 2;
+}
+
+#createUser{
+  display: inline-block;
+  width: 260px;
+  margin-top: 3px;
+  height: 30px;
+  background-color: white;
+  border-radius: 15px;
+  color: rgba(57, 4, 126);
+  font-size: larger;
+  font-weight: bold;
+}
+
+#termsAndConditions{
+  margin-top: 5px;
+}
+
+
+/*Login styles*/
+
+
+
+.logintable{
+  color: white;
+  position: absolute;
+  height: 200px;
+  width: 275px;
+  z-index: 2;
+}
+
+#logBtn{
+  display: inline-block;
+  width: 260px;
+  margin-top: 10px;
+  height: 30px;
+  background-color: white;
+  border-radius: 15px;
+  color: rgba(57, 4, 126);
+  font-size: larger;
+  font-weight: bold;
+}
+
+#createNewUser{
+  display: inline-block;
+  width: 260px;
+  margin-top: 3px;
+  height: 30px;
+  background-color: white;
+  border-radius: 15px;
+  color: rgba(57, 4, 126);
+  font-size: larger;
+  font-weight: bold;
+}
+
+
+/* dashboard style */
+.dashButton{
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center; 
+  color: white;
+}
+
+
+
+#buttonContainer{
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+}
+
+.dashImage{
+  max-width: 45%;
+  max-height: 45%;
+}
+
+
+/* workshop container */
+
+#workshopContainer{
+  background-image: url(./imgs/backDrop.png);
+  max-height: 100%;
+  overflow-y: scroll;
+  color: white;
+}
+
+
+/* Wordbank styles */
+.wordbank{
+  background-color: rgba(41, 41, 41, 0.65);
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  color: white;
+  border-radius: 14px;
+  height: 20px;
+  width: auto;
+}
+
+
+.small{
+  /* small shit goes here */
+}
+
+.large{
+  color: white;
+  height: 102vh;
+  width: 100vw;
+  overflow: scroll;
+  
+}
+
+
+/*     =================================    */
+
+/* <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center',
+  maxWidth: '100%', maxHeight: '100%'}} onChange={this.componentDidMount}>
+    <div style={{color: 'white', position: 'absolute', maxHeight: '100%',
+maxWidth:'100%', zIndex: '2', overflow: 'scroll'}}> */ 
