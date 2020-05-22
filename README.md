@@ -7,10 +7,14 @@ was developed with React JSX. (A JS Framework) The Backend side was developed us
 Google Firebase. Firebase is a noSQL database that offers several features. I've
 listed a couple of these features later on.
 
-Lets get into it.
+Lets get to it.
+
 1.) Firebase Sign in and sign up components are demanded from the start. Users must 
-sign in to gain access to the app. The signup creates not only a user in the authentication
-portion of firebase but a collection 'user' doc with that users email. 
+sign in to gain access to the app. This usually would allow the app to choose which
+features are accessable to which user based on their credentials. The same would be
+true for the Create, Read, Update and Delete permissions to the database(s). The 
+signup creates not only a user in the authentication portion of firebase but a collection
+'user' doc with that users email. 
 
 2.)That user collection allows us to set up an environment where we can allow other 
 users to chat with eachother. All the user will need is the other user's email adress
