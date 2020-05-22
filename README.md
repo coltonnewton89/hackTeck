@@ -2,18 +2,25 @@ Welcome to hackTeck. This is a 'hack' environment where I can implement new or u
 (Mostly full stack development)
 
 
-There's a couple of things you'll see here. 
-1.) Firebase Sign in and sign up components. The sign up creates not only a user but a 
-collection type with that users information. This will be important for the 
-next component.
+There's a couple of things you'll see here. The front end side of this application
+was developed with React JSX. (A JS Framework) The Backend side was developed using
+Google Firebase. Firebase is a noSQL database that offers several features. I've
+listed a couple of these features later on.
+
+Lets get into it.
+1.) Firebase Sign in and sign up components are demanded from the start. Users must 
+sign in to gain access to the app. The signup creates not only a user in the authentication
+portion of firebase but a collection 'user' doc with that users email. 
 
 2.)That user collection allows us to set up an environment where we can allow other 
-users to chat with eachother. The messenger component is strictly props and backend.
-I had fun with this one because it's more componentized then any other section. Eventually I look forward to styling the messaging component more and add a little more functionality to it.
+users to chat with eachother. All the user will need is the other user's email adress
+The messenger component is strictly props and backend. I had fun with this one because 
+it's more componentized then any other section. Eventually I look forward to styling 
+the messaging component more and add a little more functionality to it.
 (ex: setting up the 'X' button in chatlist section next to userEmail to enable
 delete messages. I also hope to make it where if the backend creates a new doc, (we'll call
 it a new message for simplicity) an 'accept/decline' component will allow the user to 
-decline or accept the incoming message.)
+accept or decline the incoming message.)
 
 3.)The Cycle component allows a user to receive their own data from the database without
 them displaying or 'updating' anyone else's data. Why the quotation marks around updating?
